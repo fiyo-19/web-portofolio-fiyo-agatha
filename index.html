@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <!-- Link Icon -->
+    <link rel="icon" href="assets/img/logo-tailwind.png">
+    <!-- Link Main Style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Link CDN Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://unpkg.com/@tailwindcss/browser@4"></script> -->
+    <!-- Link CDN Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link CDN Animation on Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+    <main class="overflow-hidden">
+        <section class="banner bg h-screen w-screen flex xl:h-[100vh] 2xl:h-[40vh]">
+            <div class="grid grid-cols-2 max-w-7xl mx-auto flex justify-center items-center lg:gap-12 gap-4">
+                <div class="banner-title flex flex-col justify-center items-end gap-0 md:gap-4 p-2">
+                    <h1 class="font-extrabold text-end lg:text-6xl md:text-4xl text-xl"
+                        style="font-family: Montserrat;">Front-End Web Developer</h1>
+                    <h4 class="font-bold lg:text-4xl md:text-3xl text-lg" style="font-family: Fredoka;">Hello, i am...
+                    </h4>
+                    <div class="flex md:flex-row flex-col md:items-center items-end gap-4 ">
+                        <h4 class="text-end lg:text-4xl md:text-3xl text-lg" style="font-family: Red Hat Display;">Fiyo
+                            Agatha Putra</h4>
+                        <a class="rounded-full flex items-center md:h-10 md:px-9 h-6 px-4 transition-transform duration-300 hover:scale-110"
+                            href="#about-sect"><i class="fa-solid fa-arrow-right md:text-3xl text-md"
+                                style="color: var(--third-color);"></i></a>
+                    </div>
+                </div>
+                <div class="banner-img flex justify-center items-center p-2">
+                    <img class="rounded-xl lg:w-80 md:w-64 sm:w-72" src="assets/img/foto.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="about-sect" class="about bg2 h-auto w-screen flex xl:h-[80vh] 2xl:h-[30vh]">
+            <div
+                class="grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto flex justify-start items-start gap-2 md:gap-0">
+                <div class="about-title md:p-10 px-3">
+                    <h1 class="font-extrabold mb-3 lg:text-4xl md:text-4xl text-2xl" style="font-family: Montserrat;">
+                        About Me</h1>
+                    <p class="text-sm lg:text-2xl font-normal">Hello! I’m Fiyo Agatha Putra, a fresh graduate in
+                        Informatics Engineering with a focus on Front-End website development. In addition to my
+                        expertise in web technologies, I am also actively involved in various organizations, which has
+                        helped me develop strong collaboration and teamwork skills. <br>
+                        Although I am just
+                        starting my career, I already have several projects available in my portfolio.</p>
+                </div>
+                <div class="about-skill flex flex-col gap-4 md:p-10 px-3">
+                    <h1 class="font-extrabold lg:text-4xl md:text-4xl text-2xl">Skills</h1>
+                    <div class="flex flex-col gap-2">
+                        <p class="lg:text-2xl md:text-base text-sm font-bold">Web Development :</p>
+                        <div class="about-skill-img flex lg:flex-row flex-wrap gap-4 my-2">
+                            <img src="assets/img/logo-bootstrap.png">
+                            <img src="assets/img/logo-js.png">
+                            <img src="assets/img/logo-laravel.png">
+                            <img src="assets/img/logo-tailwind.png">
+                            <img src="assets/img/logo-php.png">
+                            <img src="assets/img/logo-react.png">
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <p class="lg:text-2xl md:text-base text-sm font-bold">Digital Marketing :</p>
+                        <ul class="lg:text-2xl md:text-base text-sm">
+                            <li>SEO On-page</li>
+                            <li>Facebook Ads</li>
+                            <li>Campaign Planning</li>
+                            <li>Keyword Research</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services bg h-auto w-screen flex lg:h-[100vh] xl:h-[80vh] 2xl:h-[30vh]">
+            <div class="flex flex-col mx-auto my-auto text-center py-4">
+                <h1 id="services-title" class="font-extrabold my-3 text-2xl md:text-4xl">What I Do?</h1>
+                <div class="services-card-container flex grid grid-cols-1 md:grid-cols-2 mt-4 gap-4">
+                    <div class="services-card flex flex-col text-white w-[80vw] md:w-80 rounded-xl p-6 md:p-10 gap-4">
+                        <h1 class="text-xl md:text-2xl font-bold">Web Development</h1>
+                        <p>Merencanakan dan mengimplementasikan bisnis anda lewat pembuatan platform website yang dapat
+                            menunjang aksesibilitas dan kepercayaan kepada pelanggan anda. </p>
+                    </div>
+                    <div class="services-card flex flex-col text-white w-[80vw] md:w-80 rounded-xl p-6 md:p-10 gap-4">
+                        <h1 class="text-xl md:text-2xl font-bold">Digital Marketing</h1>
+                        <p>Merencanakan campaign bisnis anda lewat Facebook Ads, merencanakan penggunaan keyword pada
+                            postingan atau website anda untuk menjangkau audiens yang lebih spesifik atau lebih banyak
+                            ke produk bisnis anda.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects h-auto w-screen flex xl:h-[100vh] 2xl:h-[40vh]">
+            <div class="flex flex-col mx-auto my-auto text-center py-4">
+                <h1 class="font-extrabold my-3 text-2xl md:text-4xl">Projects</h1>
+
+                <!-- Filter Button -->
+                <div class="filter-container my-4 mb-10 gap-4 flex justify-center">
+                    <button id="web-btn"
+                        class="text-xl mx-4 relative after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-0 after:h-[2px] after:bg-black after:transition-all after:duration-300 font-normal text-gray-600 transition-all duration-300">
+                        Web Development
+                    </button>
+
+                    <button id="digiting-btn"
+                        class="text-xl mx-4 relative after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-0 after:h-[2px] after:bg-black after:transition-all after:duration-300 font-normal text-gray-600 transition-all duration-300">
+                        Digital Marketing
+                    </button>
+                </div>
+
+                <div id="web-projects"
+                    class="projects-container flex flex-wrap justify-center items-center max-w-7xl px-3 gap-4">
+                    <a class="relative group w-[300px] xl:w-[400px] overflow-hidden rounded-xl"
+                        href="https://houseilmuindonesia.com/" target="_blank">
+                        <img class="w-full h-auto" src="assets/img/project-1.png" alt="">
+                        <div
+                            class="overlay absolute inset-0 bg-black bg-opacity-80 flex items-center justify-center transition-transform duration-500 scale-y-0 origin-bottom group-hover:scale-y-100">
+                            <p class="text-white font-semibold text-lg">House Ilmu Indonesia</p>
+                        </div>
+                    </a>
+                    <a class="relative group w-[300px] xl:w-[400px] overflow-hidden rounded-xl"
+                        href="https://web-magang-crystal-pool.vercel.app/" target="_blank">
+                        <img class="w-full h-auto" src="assets/img/project-2.png" alt="">
+                        <div
+                            class="overlay absolute inset-0 bg-black bg-opacity-80 flex items-center justify-center transition-transform duration-500 scale-y-0 origin-bottom group-hover:scale-y-100">
+                            <p class="text-white font-semibold text-lg">Crystall Pool Indonesia</p>
+                        </div>
+                    </a>
+                    <a class="relative group w-[300px] xl:w-[400px] overflow-hidden rounded-xl"
+                        href="https://web-magang-crystal-pool.vercel.app/" target="_blank">
+                        <img class="w-full h-auto" src="assets/img/project-3.png" alt="">
+                        <div
+                            class="overlay absolute inset-0 bg-black bg-opacity-80 flex items-center justify-center transition-transform duration-500 scale-y-0 origin-bottom group-hover:scale-y-100">
+                            <p class="text-white font-semibold text-lg">SMKS Ketintang Surabaya</p>
+                        </div>
+                    </a>
+                    <a class="relative group w-[300px] xl:w-[400px] overflow-hidden rounded-xl"
+                        href="https://web-magang-crystal-pool.vercel.app/" target="_blank">
+                        <img class="w-full h-auto" src="assets/img/project-4.png" alt="">
+                        <div
+                            class="overlay absolute inset-0 bg-black bg-opacity-80 flex items-center justify-center transition-transform duration-500 scale-y-0 origin-bottom group-hover:scale-y-100">
+                            <p class="text-white font-semibold text-lg">Ketimbang Ngemis Surabaya</p>
+                        </div>
+                    </a>
+                    <a class="relative group w-[300px] xl:w-[400px] overflow-hidden rounded-xl"
+                        href="https://web-magang-crystal-pool.vercel.app/" target="_blank">
+                        <img class="w-full h-auto" src="assets/img/project-5.png" alt="">
+                        <div
+                            class="overlay absolute inset-0 bg-black bg-opacity-80 flex items-center justify-center transition-transform duration-500 scale-y-0 origin-bottom group-hover:scale-y-100">
+                            <p class="text-white font-semibold text-lg">Voorjou Cafe</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div id="digiting-projects"
+                    class="projects-container flex flex-wrap justify-center items-center max-w-7xl px-3 gap-4 hidden">
+                    <a class="relative group w-[300px] xl:w-[400px] overflow-hidden rounded-xl"
+                        href="https://drive.google.com/file/d/1V31OLCENZtPcf9XbjDNMWlaYZeWJb98s/view?usp=sharing"
+                        target="_blank">
+                        <img class="w-full h-auto" src="assets/img/project-6.png" alt="">
+                        <div
+                            class="overlay absolute inset-0 bg-black bg-opacity-80 flex items-center justify-center transition-transform duration-500 scale-y-0 origin-bottom group-hover:scale-y-100">
+                            <p class="text-white font-semibold text-lg">Facebook Ads IDESHU</p>
+                        </div>
+                    </a>
+                    <a class="relative group w-[300px] xl:w-[400px] overflow-hidden rounded-xl"
+                        href="https://drive.google.com/file/d/1HSMYW8cfslUkbUrJZRGkudE4U5hseBIJ/view?usp=sharing"
+                        target="_blank">
+                        <img class="w-full h-auto" src="assets/img/project-7.png" alt="">
+                        <div
+                            class="overlay absolute inset-0 bg-black bg-opacity-80 flex items-center justify-center transition-transform duration-500 scale-y-0 origin-bottom group-hover:scale-y-100">
+                            <p class="text-white font-semibold text-lg">SEO Assignment</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="contact bg h-screen w-screen flex xl:h-[80vh] 2xl:h-[30vh]">
+            <div class="mx-auto my-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 flex">
+                <div class="contact-container flex flex-col gap-4 px-4">
+                    <h1 class="text-4xl font-bold">Contact Me</h1>
+                    <p class="text-xl">Let’s connect and share ideas! Who knows, we might create something amazing
+                        together.</p>
+                    <div class="contact-img flex gap-2">
+                        <a href="https://github.com/fiyo-19" target="_blank"><img
+                                class="transition-transform duration-300 hover:scale-125"
+                                src="assets/img/logo-github.png"></a>
+                        <a href="mailto:fiyoagatha98@gmail.com" target="_blank"><img
+                                class="transition-transform duration-300 hover:scale-125"
+                                src="assets/img/logo-gmail.png"></a>
+                        <a href="https://www.linkedin.com/in/fiyo-agatha-putra/" target="_blank"><img
+                                class="transition-transform duration-300 hover:scale-125"
+                                src="assets/img/logo-linkedin.png"></a>
+                        <a href="https://wa.me/6287759747684" target="_blank"><img
+                                class="transition-transform duration-300 hover:scale-125"
+                                src="assets/img/logo-whatsapp.png"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- CDN animate on scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Initialize JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

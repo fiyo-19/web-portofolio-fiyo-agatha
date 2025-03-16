@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+body a{
+    text-decoration: none;
+}
+
+body h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+:root{
+  --primary-color: #815736;
+  --secondary-color: #352111;
+  --third-color: #d8c5b3;
+  --fourth-color: #634429;
+  --text-color: #ffffff;
+}
+
+body{
+  background: url("../img/bg.png") repeat center center / cover;
+}
+
+.bg {
+/*   background: url("../img/bg.png") no-repeat center center / cover; */
+}
+
+.bg2{
+/*   background: url("../img/bg2.png") no-repeat center center / cover; */
+}
+
+.banner .banner-title h1, .about .about-title h1, 
+.about .about-skill h1, .services #services-title, .projects h1, .contact h1{
+  color: var(--primary-color);
+}
+
+.banner .banner-title h4, .about .about-title p, .about .about-skill p, .about .about-skill ul li,
+.projects .filter-container button{
+  color: var(--secondary-color);
+}
+
+.banner .banner-title a{
+  background-color: var(--secondary-color);
+/*   transition: transform .2s ease-in-out; */
+}
+
+.banner .banner-title a:hover{
+/*   transform: scale(1.1); */
+}
+
+.about .about-skill .about-skill-img img, 
+.contact .contact-container .contact-img img{
+  width: 60px;
+}
+
+@media only screen and (max-width: 767px) {
+  .about .about-skill .about-skill-img img{
+    width: 40px;
+  }
+
+  .contact .contact-container .contact-img img{
+    width: 40px;
+  }
+}
+
+.about .about-skill ul{
+  list-style: disc;
+}
+
+.services .services-card-container .services-card{
+  background-color: var(--fourth-color);
+}
